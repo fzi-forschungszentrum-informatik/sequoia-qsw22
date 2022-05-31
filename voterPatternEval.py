@@ -283,9 +283,9 @@ def processResults(results, groundTruth, string=""):
     numEqualAverage = 1.0 - numBetterAverage - numWorseAverage 
     print("number of Experiments for " + string + " = " + str(numFiltered))
             
-    return [[string, "Avg", numAvgCorrect, numAvgTT, tuple(np.round((numWorseAverage, numEqualAverage, numBetterAverage), decimals=2))],
+    return [[string, "Avg", numAvgCorrect, numAvgTT, tuple(np.round((numWorseAverage, numEqualAverage, numBetterAverage), decimals=3))],
             [string, "Agg", numCombCorrect, numCombTT, "-"],
-            [string, "Best", correct[idx], topTens[idx], tuple(np.round((numWorseBest, numEqualBest, numBetterBest), decimals=2))]]
+            [string, "Best", correct[idx], topTens[idx], tuple(np.round((numWorseBest, numEqualBest, numBetterBest), decimals=3))]]
             
 def interpretFolder(args):
     resultsDir = args.dir
