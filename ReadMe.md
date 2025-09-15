@@ -1,6 +1,6 @@
 # Evaluation of QuantumArchitecturePatterns
 
-This is the evaluation for the paper "Detecting and Tolerating Faults in Hybrid Quantum Software Systems Using Architectural Redundancy" (link)[https://ieeexplore.ieee.org/abstract/document/11134344]. 
+This is the evaluation for the paper "Detecting and Tolerating Faults in Hybrid Quantum Software Systems Using Architectural Redundancy" ([link](https://ieeexplore.ieee.org/abstract/document/11134344)). 
 
 This work is part of the SEQUOIA and SEQUOIA End-to-End projects funded by the Ministry of Economic Affairs Baden-Württemberg, Germany
 
