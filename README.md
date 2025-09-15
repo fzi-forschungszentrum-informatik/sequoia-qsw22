@@ -1,5 +1,9 @@
 # quantumNVersionEval
-This repository provides the necessary material to reproduce the experiments described in our paper "Fault-tolerant Hybrid Quantum Software System" submitted to QSW 2022. 
+This repository provides the necessary material to reproduce the experiments described in our paper "Fault-tolerant Hybrid Quantum Software System" submitted to QSW 2022 which you can find [here](https://ieeexplore.ieee.org/abstract/document/9860169). 
+
+An extension of this work was published in our paper "Detecting and Tolerating Faults in Hybrid Quantum Software Systems using Architectural Redundancy" available [here](https://ieeexplore.ieee.org/abstract/document/11134344). The evaluation of this paper can be found in the [qsw25-branch](https://github.com/fzi-forschungszentrum-informatik/sequoia-qsw22/tree/qsw25)
+
+This work is part of the SEQUOIA and SEQUOIA End-To-End projects funded by the Ministry of Economic Affairs Baden-Württemberg, Germany
 
 ## Setup
 In order to run the experiments the necessary python packages have to be installed. This can be done using ```pip -r install requirements.txt```. 
